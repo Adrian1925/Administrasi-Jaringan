@@ -33,25 +33,25 @@
 
 # Analisa file http.cap dengan wireshark
 ### 1. Versi HTTP yang Digunakan
-![versi http](image.png)
+![versi http](img/image.png)
 Berdasarkan informasi pada gambar diatas, dapat dilihat bahwa permintaan GET terhadap /download.html menggunakan protokol HTTP/1.1. Respon yang diberikan oleh server juga menggunakan HTTP/1.1 dengan status 200 OK. Dengan demikian, versi HTTP yang digunakan dalam komunikasi ini adalah HTTP/1.1.
 
 ### 2. IP Address dari Client dan Server
 - Client IP Address:
-  ![alt text](image-1.png)
+  ![alt text](img/image-1.png)
   Dari paket pertama (baris ke-18), Source IP adalah 145.254.160.237, yang menunjukkan bahwa ini adalah IP Client. <br>
 - Server IP Address:
-  ![alt text](image-2.png)
+  ![alt text](img/image-2.png)
   Dari paket ke-38 dan 27 (HTTP/1.1 200 OK), Source IP adalah 65.208.228.223 dan 216.239.59.99.<br> Ini menunjukkan bahwa server memiliki IP 65.208.228.223 dan 216.239.59.99.
 ### 3. Waktu dari Client Mengirimkan HTTP Request
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 dari gambar diatas Pada baris ke-4 (GET /download.html) dapat dilihat waktu tercatat di kolom Time adalah 0.911310 detik.
 ### 4.  Waktu dari server mengirinmkan server dan durasinya
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 Dari gambar diatas baris ke-38 (HTTP/1.1 200 OK) dapat dilihat bahwa server merespons permintaan pada 4.846969 detik. Durasi dihitung dari ( waktu dari server - waktu dari client ) dengan durasi 3,935659
 
 # Deskripsi gambar pada slide 3
-![alt text](img2.png)
+![alt text](img/img2.png)
 ## 1. Pendahuluan
 Gambar di atas menjelaskan cara data dikirimkan melalui beberapa tingkatan (lapisan) dalam sebuah jaringan. Setiap tingkatan memiliki peran yang berbeda dalam memastikan data dapat sampai dari proses pengirim ke proses penerima. Secara garis besar, ada tiga jenis pengiriman data yang ditunjukkan, yaitu:
 
