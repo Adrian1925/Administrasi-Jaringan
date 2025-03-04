@@ -49,7 +49,7 @@ lsb_release -a
 ```
 Untuk mengecheck versi ubuntu yang sudah terinstall
 ### Hasil
-![alt text](image.png)
+![alt text](img/image.png)
 
 ## 2. Check Dependensi
 ### Perintah terminal
@@ -86,7 +86,7 @@ sudo usermod -aG vboxusers$
 menambahkan pengguna saat ini ke dalam grup vboxusers, yang diperlukan agar pengguna dapat menggunakan fitur tertentu di VirtualBox, seperti akses ke perangkat USB.
 
 ## 6. Interface Installation VirtualBox Debian
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
 ### Persiapan File ISO
 - Jika sudah memiliki file **ISO Debian 12**, masukkan lokasinya di kolom **ISO Image** pada pengaturan VM.
@@ -107,15 +107,15 @@ get debian-12.9.0-amd64-netinst.iso
 ✅ **HDD**: 10 GB  
 
 ### Validasi Kebutuhan install
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 Jika sudah sesuai dengan spesifikasi yang diinginkan lanjut klik Finish untuk memproses instalasi.
 
 ### Proses instalasi berjalan
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 Tunggu hingga proses instalasi selesai
 
 ### Instalasi Virtualbox Debian Linux Berhasil
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 Proses instalasi melalui terminal dengan akses root pada OS Linux telah selesai.
 
 
